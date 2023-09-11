@@ -407,17 +407,17 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -25px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
 
   .main_image_Htext {
     left: 45px;
-    top: 210px;
+    top: 200px;
     font-size: 24px;
   }
 
   .main_image_Ptext {
-    top: 270px;
+    top: 260px;
     left: 35px;
     max-width: 200px;
     font-size: 12px;
