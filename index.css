@@ -19,6 +19,10 @@ body {
   margin: 0 auto;
 }
 
+.decorative_extra {
+  display: none;
+}
+
 .header {
   margin: 0;
   padding: 0;
@@ -408,6 +412,18 @@ body {
     background-repeat: no-repeat;
     margin-top: -25px;
     margin-bottom: 0px;
+    z-index: 0;
+  }
+
+  .decorative_extra {
+    z-index: 4;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    display: block;
   }
 
   .main_image_Htext {
